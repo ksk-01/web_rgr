@@ -1,0 +1,729 @@
+@media (min-width: 402px) and ( max-width: 480px){
+	.header-conainer{
+		max-width: none;
+		display: flex;
+		justify-content: space-around;
+	}
+	.main-menu{
+		display: none;
+	}
+	.main-menu li{
+		max-width: 100%;
+		display: block;
+		font-size: 12px;
+	}
+
+	.main-menu a{
+		display: block;
+		padding: 8px;
+	}
+	.toggle-button{
+		text-align: center;
+		display: block;
+		cursor: pointer;
+		color: #000;
+		margin-top: 0;	
+	}
+	.toggle-button:after{
+		content: attr(data-open);
+		display: block;
+	}
+	#menu-checkbox:checked + nav[role="navigation"] .main-menu{
+		display: block;
+	}
+	#menu-checkbox:checked + nav[role="navigation"] .toggle-button:after{
+		content: attr(data-close);
+	}
+	.header-container a{
+		margin-left: -65px;
+	}
+	.main-menu{
+		position: relative
+		top: 25px;
+		right: 115px;
+	}
+/*-----------------------------------------------------*/
+	.section {
+    max-width: 66%;
+    }
+
+    .col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+	.left h2 {
+    position: relative;
+    left: 3rem;
+    top: 0em;
+    text-align: center;
+	}
+
+	.left p {
+    position: relative;
+    left: 19%;
+    top: 34rem;
+    max-width: 30%;
+	}	
+
+    .left_small p{
+    position: relative;
+    left: 65%;
+    top: 26rem;
+    max-width: 51%;
+    }
+
+	.span_1_of_3 a {
+    position: relative;
+    left: 35%;
+    top: 0em;
+	}
+
+	.image img {
+    position: relative;
+    left: 19%;
+    bottom: 16rem;
+    margin: 0 0;
+	}
+
+	.right h2 {
+    position: relative;
+    left: 50%;
+    top: -2em;
+	}
+	
+	.right p {
+    position: relative;
+    left: 0%;
+    width: 144%;
+    top: -2em;
+    text-align: center;
+	}
+
+	.language a {
+    position: relative;
+    left: 17rem;
+    top: 8em;
+    text-decoration: none;
+    color: black;
+	}
+
+	.language p {
+    position: relative;
+    left: 17rem;
+    top: 8rem;
+	}
+
+	.active_a a{
+	text-decoration: underline;
+	}
+
+/*--------------------------------------------------*/
+
+
+
+.mid_left h2 {
+   display: flex;
+    position: relative;
+    left: 60%;
+    top: 2rem;
+}
+
+.mid_left img {
+    position: relative;
+    left: 33%;
+    top: 4rem;
+    
+}
+
+.mid_left h3 {
+    display: flex;
+	position: relative;
+    left: 50%;
+    top: 5rem;
+}
+
+.mid_left p {
+    display: flex;
+    position: relative;
+    text-align: center;
+    left: 55%;
+    top: 6rem;
+    max-width: 100%;
+
+}
+/*---------------------2---------------------*/
+
+.mid_center img{
+    position: relative;
+    left: 33%;
+    top: 10rem;
+}
+
+.mid_center h3{
+    display: flex;
+ 	position: relative;
+    left: 80%;
+    top: 9em;
+    max-width: 100%;
+}
+
+.mid_center p{
+    display: flex;
+	position: relative;
+    text-align: center;
+    left: 53%;
+    top: 12em;
+    max-width: 100%;
+}
+
+/*--------------------3----------------------*/
+
+.mid_right img{
+    position: relative;
+    left: 33%;
+    top: 14rem;
+}
+
+.mid_right h3 {
+    display: flex;
+    position: relative;
+    left: 53%;
+    top: 15rem;
+    max-width: 95%;
+}
+
+.mid_right p {
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 53%;
+    top: 16rem;
+    width: 110%;
+}
+
+.list h2 {
+    position: relative;
+    margin: 17rem 0rem 0rem 2rem;
+    left: 2%;
+    width: 134%;
+}
+
+.list li {
+    position: relative;
+    top: 1rem;
+    margin: 0 0 0 2rem;
+    left: 10%;
+}
+
+}
+
+
+@media screen and ( max-width: 402px){
+    .header-conainer{
+        max-width: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-menu{
+        display: none;
+    }
+    .main-menu li{
+        max-width: 100%;
+        display: block;
+        font-size: 12px;
+    }
+
+    .main-menu a{
+        display: block;
+        padding: 8px;
+    }
+    .toggle-button{
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: #000;
+        margin-top: 0;  
+    }
+    .toggle-button:after{
+        content: attr(data-open);
+        display: block;
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .main-menu{
+        display: block;
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after{
+        content: attr(data-close);
+    }
+    .header-container a{
+        margin-left: -65px;
+    }
+    .main-menu{
+        position: relative
+        top: 25px;
+        right: 115px;
+    }
+/*-----------------------------------------------------*/
+    .section {
+    width: 66%;
+    }
+
+    .col {  margin: 1% 0 1% 0%; }
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+    .left h2 {
+    position: relative;
+    left: 3rem;
+    top: 0em;
+    text-align: center;
+    }
+
+    .left p {
+    position: relative;
+    left: 18%;
+    top: 34rem;
+    max-width: 30%;
+    }   
+
+    .left_small p{
+    position: relative;
+    left: 65%;
+    top: 26rem;
+    max-width: 67%;
+    }
+
+    .span_1_of_3 a {
+    position: relative;
+    left: 33%;
+    top: 2rem;
+    }
+
+    .image img {
+        display: flex;  
+    position: relative;
+    left: 11%;
+    top: -15rem;
+    }
+
+    .right h2 {
+    position: relative;
+    left: 46%;
+    top: -1rem;
+    }
+    
+    .right p {
+    position: relative;
+    right: 0%;
+    width: 140%;
+    top: 1em;
+    text-align: center;
+    }
+
+    .language a {
+    position: relative;
+    left: 17rem;
+    top: 8em;
+    text-decoration: none;
+    color: black;
+    }
+
+    .language p {
+    position: relative;
+    left: 17rem;
+    top: 8rem;
+    }
+
+    .active_a a{
+    text-decoration: underline;
+    }
+
+/*--------------------------------------------------*/
+
+
+
+.mid_left h2 {
+    position: relative;
+    left: 60%;
+    top: 4rem;
+}
+
+.mid_left img {
+    position: relative;
+    left: 25%;
+    top: 7rem;
+    
+}
+
+.mid_left h3 {
+    position: relative;
+    left: 45%;
+    top: 8rem;
+    display: flex;
+}
+.mid_left p {
+    position: relative;
+    text-align: center;
+    left: 55%;
+    top: 9rem;
+    max-width: 100%;
+}
+/*---------------------2---------------------*/
+
+.mid_center img{
+    position: relative;
+    left: 25%;
+    top: 11rem;
+}
+
+.mid_center h3 {
+    position: relative;
+    left: 75%;
+    top: 10em;
+    max-width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.mid_center p{
+    position: relative;
+    text-align: center;
+    left: 50%;
+    top: 13em;
+    max-width: 100%;
+}
+
+/*--------------------3----------------------*/
+
+.mid_right img{
+    position: relative;
+    left: 25%;
+    top: 15rem;
+}
+
+.mid_right h3 {
+    position: relative;
+    left: 53%;
+    top: 16rem;
+    text-align: center;
+    display: flex;
+    max-width: 200%;
+}
+
+.mid_right p {
+    display: flex;
+    position: relative;
+    left: 55%;
+    top: 17rem;
+    width: 100%;
+}
+
+.list h2 {
+    position: relative;
+    margin: 17rem 0rem 0rem 1rem;
+    left: 10%;
+    width: 150%;
+}
+
+.list li {
+    position: relative;
+    top: 1rem;
+    margin: 0 0 0 2rem;
+    left: 10%;
+}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col {  margin: 1% 0 1% 0%; }
+
+    .image img{
+        position: relative;
+        right: 1rem;
+    }
+
+    .right h2 {
+    position: relative;
+    left: 35%;
+    top: 1rem;
+    }
+
+    .right p {
+    position: relative;
+    left: 25%;
+    width: 81%;
+    top: 2rem;
+    }
+
+    .left h2{
+    position: relative;
+    left: 15%;
+    top: 1em;
+    font-size: 25px;
+    }
+
+    .left p{
+    position: relative;
+    left: 30%;
+    top: 2em;
+    max-width: 50%;
+    font-size: 20px;
+    }
+
+    .left_small p {
+    position: relative;
+    left: 22%;
+    top: 4em;
+    max-width: 68%;
+    }
+
+    .button a {
+    position: relative;
+    left: 25%;
+    top: 4rem;
+    }
+
+    .mid_left img {
+    position: relative;
+    left: 5%;
+    top: 7.25rem;
+    height: 14rem;
+    }
+
+
+    .mid_center img {
+    position: relative;
+    left: 7%;
+    top: 9rem;
+    height: 14rem;
+    }
+
+    .mid_left h3 {
+    position: relative;
+    left: 0%;
+    top: 8.25rem;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .mid_left p {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    top: 9rem;
+    max-width: 50%;
+    margin: 0 auto;
+    }
+
+    .mid_center h3 {
+    position: relative;
+    left: 0%;
+    top: 10rem;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .mid_center p {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    top: 12.3rem;
+    max-width: 50%;
+    margin: 0 auto;
+    }
+
+
+    .mid_right img {
+    position: relative;
+    left: 10%;
+    top: 9rem;
+    height: 14rem;
+    }
+
+    .mid_right h3 {
+    position: relative;
+    right: 0%;
+    top: 10rem;
+    max-width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .mid_right p {
+    position: relative;
+    text-align: center;
+    right: 0%;
+    top: 11rem;
+    width: 50%;
+    margin: 0 auto 2rem;
+    }
+
+    .language a {
+    position: relative;
+    left: 41rem;
+    top: 8em;
+    text-decoration: none;
+    color: black;
+    }
+
+    .language p {
+    position: relative;
+    left: 41rem;
+    top: 8rem;
+    }
+
+    .active_a a{
+    text-decoration: underline;
+    }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+.left h2 {
+    position: relative;
+    left: 10%;
+    top: 1em;
+    font-size: 25px;
+}
+
+.left p {
+    position: relative;
+    left: 25%;
+    top: 3em;
+    max-width: 50%;
+    font-size: 20px;
+}
+
+.left_small p {
+    position: relative;
+    left: 10%;
+    top: 5em;
+    max-width: 80%;
+}
+
+.image img {
+    position: relative;
+    right: 1rem;
+    height: 25rem;
+}
+
+.right h2 {
+    position: relative;
+    left: 20%;
+    top: 2rem;
+    font-size: 25px;
+}
+
+.right p {
+    position: relative;
+    left: 10%;
+    width: 90%;
+    top: 3rem;
+    font-size: 15px;
+}
+
+.button a {
+    position: relative;
+    left: 10%;
+    top: 3rem;
+}
+
+.mid_left img {
+    position: relative;
+    left: 20%;
+    top: 7.25rem;
+    height: 12rem;
+}
+
+.mid_left h3 {
+    position: relative;
+    left: 15%;
+    top: 8rem;
+    max-width: 47%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid_left p {
+    position: relative;
+    text-align: center;
+    left: 15%;
+    top: 9rem;
+    max-width: 700%;
+    margin: 0 auto;
+}
+
+.mid_center img {
+    position: relative;
+    left: 10%;
+    top: 9rem;
+    height: 12rem;
+}
+
+.mid_center h3 {
+    position: relative;
+    left: 0%;
+    top: 10rem;
+    max-width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid_center p {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    top: 10.75rem;
+    max-width: 78%;
+    margin: 0 auto;
+}
+
+.mid_right img {
+    position: relative;
+    left: 0%;
+    top: 9rem;
+    height: 12rem;
+}
+
+.mid_right h3 {
+    position: relative;
+    right: 5%;
+    top: 10rem;
+    max-width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid_right p {
+    position: relative;
+    text-align: center;
+    right: 7%;
+    top: 10.75rem;
+    width: 80%;
+    margin: 0 auto 2rem;
+}
+
+.list h2 {
+    position: relative;
+    margin: 12rem 0rem 0rem 8rem;
+}
+
+.language a {
+    position: relative;
+    left: 34rem;
+    top: 2rem;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.language p {
+    position: relative;
+    left: 34rem;
+    top: 2rem;
+    margin-bottom: 3rem;
+}
+}

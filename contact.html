@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CONTACT</title>
+	<link href="https://fonts.googleapis.com/css2?family= Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+	<link rel="stylesheet"  href="css/style_contact.css">
+	<link rel="icon" type="images/x-icon" href="favicon.ico">
+
+</head>
+<body>
+
+	<header>
+		<div class="header-container">
+			<div class="logo">
+				<img src="img/logo2.png" alt="logo">
+			</div>
+			<input type="checkbox" id="menu-checkbox">
+			<nav role="navigation">
+				<label for="menu-checkbox" class="toggle-button"
+			 data-open="MENU" data-close="CLOSE" onclick >	</label>
+			 <ul class="main-menu">
+			 	<li><a href="index.html">BOOK I</a></li>
+			 	<li><a href="book2.html">BOOK II</a></li>
+			 	<li><a href="about.html">ABOUT</a></li>
+			 	<li class="active"><a href="#">CONTACT</a></li>
+			 </ul>
+			</nav>
+		</div>	
+	</header>
+	<!-------------------------------------------------------->
+<div class="section group">
+	<div class="col span_1_of_2">
+	<div class="left">
+			<h2>Як зі мною звязатися? </h2>
+			<p>Щодо співпраці пишіть на мою електронну пошту ulyana.torga@gmail.com або в інстаграм 
+			<a href="https://www.instagram.com/ulyana.trgn_photo/" target="_blank">@ulyana.torga_photo</a></p>
+		</div>
+	</div>
+	<div class="col span_1_of_2">
+		<div class="sendMail">
+			<div class="row">
+				<div class="column">
+					<input type="text" id="name" placeholder="Ім'я">					
+				</div>
+				<div class="column">
+					<input type="text" id="Email" placeholder="Email">
+				</div>
+				
+			</div> 
+			<input type="text" id="textArrea" placeholder="Бажання">
+			<div class="btn_content" align="right">
+				<button class="btn" input type="button" onclick="sendMail()" id="button" value="Кнопка">Відправити</button>
+			</div>
+		</div>
+	<ul class="language">
+			<li><a href="contact_eng.html">EN</a></li>
+			<p> | </p>
+			<li class="active_a"><a href="#">UA</a></li>
+		</ul>
+	</div>
+</div>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,385 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+.active a{
+	text-decoration: underline;
+}
+header{
+	background: #fff;
+	padding: 5px 0;
+}
+.header-container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header-container a{
+	color: #000;
+	font-size: 16px;
+	margin-right: 15px;
+	padding: 20px 3px;
+}
+.header-container a:hover{
+	text-decoration: underline;
+	/*background: #828282;*/
+}
+#menu-checkbox{
+	display: none;
+}
+ul{
+	display: flex; 
+}
+nav{
+	margin-top: 20px;
+}
+
+.button	a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: white;
+  background: black;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+  position: relative;
+  /*left: 8%;
+  bottom: 250px;*/
+  
+}
+.button a:hover {
+  background: gray;
+  box-shadow: 0 15px 20px gray;
+  color: white;
+  transform: translateY(-7px);
+}
+
+/*  SECTIONS  */
+.section {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	clear: both;
+	padding: 10px;
+	margin: 0 0 ;
+	
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*---------------------1---------------------*/
+.left h2 {
+    position: relative;
+    left: 30%;
+    top: 3em;
+    font-size: 25px;
+}
+.left p {
+    position: relative;
+    left: 30%;
+    top: 5em;
+    max-width: 50%;
+     font-size: 20px;
+}
+
+.left_small p{
+	position: relative;
+    left: 30%;
+    top: 10em;
+    max-width: 50%;
+}
+/*---------------------------------------------*/
+.mid_left h2 {
+    position: relative;
+    left: 30%;
+    top: 3rem;
+}
+
+.mid_left img {
+	position: relative;
+    left: 40%;
+    top: 7rem;
+}
+
+.mid_left h3 {
+	position: relative;
+    left: 17%;
+    top: 8rem;
+    max-width: 47%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid_left p {
+	position: relative;
+    text-align: center;
+    left: 17%;
+    top: 9rem;
+    max-width: 50%;
+    margin: 0 auto;
+}
+/*---------------------2---------------------*/
+
+.image img{
+position: relative;
+}
+
+.mid_center img{
+	position: relative;
+    left: 22%;
+    top: 9rem;
+}
+
+.mid_center h3{
+ 	position: relative;
+    left: 0%;
+    top: 10rem;
+    max-width: 19%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid_center p{
+	position: relative;
+    text-align: center;
+    left: 0%;
+    top: 11rem;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+/*--------------------3----------------------*/
+
+.right h2 {
+    position: relative;
+    right: 20%;
+    top: 3rem;
+    font-size: 25px;
+}
+
+.right p {
+    position: relative;
+    right: 20%;
+    width: 100%;
+    top: 6rem;
+    font-size: 17px;
+}
+
+.button a {
+    position: relative;
+    left: -24%;
+    top: 11rem;
+}
+/*---------------------------------------------*/
+.mid_right img{
+    position: relative;
+    left: 5%;
+    top: 9rem;
+}
+
+.mid_right h3{
+   	position: relative;
+    right: 17%;
+    top: 10rem;
+    max-width: 39%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid_right p{
+	position: relative;
+    text-align: center;
+    right: 17%;
+    top: 11rem;
+    width: 50%;
+    margin: 0 auto 2rem;
+}
+/*--------------------------------------*/
+.language a {
+    position: relative;
+   	left: 74rem;
+    top: 1rem;
+    text-decoration: none;
+    color: black;
+	margin-bottom: 2rem;
+}
+
+.language p {
+    position: relative;
+	left: 74rem;
+    top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.active_a a{
+	text-decoration: underline;
+}
+
+
+/*-----------------------------------------*/
+
+.list h2{
+	position: relative;
+	margin: 10rem 0rem 0rem 8rem;
+}
+
+
+.list ul{
+	position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.list li{
+	position: relative;
+	top: 1rem;
+	margin: 0 0 0 10rem;
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+	.col {  margin: 1% 0 1% 0%; }
+	.right h2 {
+    position: relative;
+    right: 0%;
+    top: 5rem;
+	}
+
+	.right p {
+    position: relative;
+    right: 0%;
+    width: 100%;
+    top: 6rem;
+	}
+
+	.left_small p {
+    position: relative;
+    left: 30%;
+    top: 8em;
+    max-width: 50%;
+	}
+
+	.button a {
+    position: relative;
+    left: 0%;
+    top: 8rem;
+	}
+
+	.mid_left img {
+    position: relative;
+    left: 40%;
+    top: 7.25rem;
+	}
+
+	.mid_left h3 {
+    position: relative;
+    left: 30%;
+    top: 8.25rem;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+	}
+
+	.mid_left p {
+    position: relative;
+    text-align: center;
+    left: 30%;
+    top: 9rem;
+    max-width: 50%;
+    margin: 0 auto;
+	}
+
+	.mid_center h3 {
+    position: relative;
+    left: 10%;
+    top: 10rem;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+	}
+
+	.mid_center p {
+    position: relative;
+    text-align: center;
+    left: 10%;
+    top: 11rem;
+    max-width: 50%;
+    margin: 0 auto;
+	}
+
+	.mid_right h3 {
+    position: relative;
+    right: 5%;
+    top: 10rem;
+    max-width: 55%;
+    margin: 0 auto;
+    text-align: center;
+	}
+
+	.mid_right p {
+    position: relative;
+    text-align: center;
+    right: 5%;
+    top: 11rem;
+    width: 50%;
+    margin: 0 auto 2rem;
+	}
+
+	.language a {
+    position: relative;
+    left: 49rem;
+    top: 8em;
+    text-decoration: none;
+    color: black;
+	}
+
+	.language p {
+    position: relative;
+    left: 49rem;
+    top: 8rem;
+	}
+
+	.active_a a{
+	text-decoration: underline;
+	}
+
+}
